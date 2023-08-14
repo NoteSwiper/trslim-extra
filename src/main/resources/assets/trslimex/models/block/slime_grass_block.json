@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "trslimex:block/slimegrassblock_bottom",
+    "top": "trslimex:block/slimegrassblock_top",
+    "side": "trslimex:block/slimegrassblock_side",
+    "overlay": "trslimex:block/slimegrassblock_overray",
+    "particle": "trslimex:block/slimegrassblock_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

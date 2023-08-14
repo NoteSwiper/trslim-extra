@@ -1,0 +1,118 @@
+{
+  "mod_elements": [
+    {
+      "name": "GeneralCreativeTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ZombieTargets",
+      "type": "tag",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_targets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/entity_types/zombie_targets.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeGrassBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/trslimex/worldgen/configured_feature/slime_grass_block.json",
+          "src/main/java/git/noteswiper/trslimex/block/SlimeGrassBlockBlock.java",
+          "src/main/resources/assets/trslimex/models/item/slime_grass_block.json",
+          "src/main/resources/assets/trslimex/models/block/slime_grass_block.json",
+          "src/main/java/git/noteswiper/trslimex/world/features/ores/SlimeGrassBlockFeature.java",
+          "src/main/resources/assets/trslimex/blockstates/slime_grass_block.json",
+          "src/main/resources/data/trslimex/forge/biome_modifier/slime_grass_block_biome_modifier.json",
+          "src/main/resources/data/trslimex/worldgen/placed_feature/slime_grass_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "slimedzombie.ambient",
+      "files": [
+        "slimedzombie_say1",
+        "slimedzombie_say2",
+        "slimedzombie_say3"
+      ],
+      "category": "hostile",
+      "subtitle": "Slimed Zombie Says"
+    },
+    {
+      "name": "slimedzombie.hurt",
+      "files": [
+        "slimedzombie_hurt1",
+        "slimedzombie_hurt2"
+      ],
+      "category": "hostile",
+      "subtitle": "Slimed Zombie Hurts"
+    },
+    {
+      "name": "slimedzombie.death",
+      "files": [
+        "slimedzombie_death"
+      ],
+      "category": "hostile",
+      "subtitle": "Slimed Zombie Dies"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.slimedzombie.ambient": "Slimed Zombie Says",
+      "subtitles.slimedzombie.hurt": "Slimed Zombie Hurts",
+      "item_group.trslimex.general_creative_tab": "trslim EXTRA",
+      "block.trslimex.slime_grass_block": "Slime Grass Block",
+      "subtitles.slimedzombie.death": "Slimed Zombie Dies"
+    },
+    "ja_jp": {
+      "subtitles.slimedzombie.ambient": "Slimed Zombie Says",
+      "subtitles.slimedzombie.hurt": "Slimed Zombie Hurts",
+      "item_group.trslimex.general_creative_tab": "trslim EXTRA",
+      "block.trslimex.slime_grass_block": "Slime Grass Block",
+      "subtitles.slimedzombie.death": "Slimed Zombie Dies"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "trslimex",
+    "modName": "trslim Extra",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://github.com/NoteSwiper/trslim-extra/raw/master/update.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "git.noteswiper.trslimex",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300333711
+}

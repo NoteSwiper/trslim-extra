@@ -1,0 +1,11 @@
+{
+  "_fv": 45,
+  "_type": "tab",
+  "definition": {
+    "name": "trslim EXTRA",
+    "icon": {
+      "value": "Items.SKULL#4"
+    },
+    "showSearch": true
+  }
+}
