@@ -98,9 +98,9 @@
   "workspaceSettings": {
     "modid": "trslimex",
     "modName": "trslim Extra",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "author": "user, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/NoteSwiper/trslim-extra",
     "license": "Custom license",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
