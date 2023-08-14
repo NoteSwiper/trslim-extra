@@ -14,18 +14,24 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import git.noteswiper.trslimex.block.SlimeStoneBlockBlock;
 import git.noteswiper.trslimex.block.SlimeGrassBlockBlock;
+import git.noteswiper.trslimex.block.SlimeDirtBlockBlock;
 import git.noteswiper.trslimex.TrslimexMod;
 
 public class TrslimexModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TrslimexMod.MODID);
 	public static final RegistryObject<Block> SLIME_GRASS_BLOCK = REGISTRY.register("slime_grass_block", () -> new SlimeGrassBlockBlock());
+	public static final RegistryObject<Block> SLIME_DIRT_BLOCK = REGISTRY.register("slime_dirt_block", () -> new SlimeDirtBlockBlock());
+	public static final RegistryObject<Block> SLIME_STONE_BLOCK = REGISTRY.register("slime_stone_block", () -> new SlimeStoneBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			SlimeGrassBlockBlock.blockColorLoad(event);
+			SlimeDirtBlockBlock.blockColorLoad(event);
+			SlimeStoneBlockBlock.blockColorLoad(event);
 		}
 	}
 }

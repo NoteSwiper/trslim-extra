@@ -3,5 +3,7 @@
   "subtitles.slimedzombie.hurt": "Slimed Zombie Hurts",
   "item_group.trslimex.general_creative_tab": "trslim EXTRA",
   "block.trslimex.slime_grass_block": "Slime Grass Block",
+  "block.trslimex.slime_stone_block": "Slime Stone Block",
+  "block.trslimex.slime_dirt_block": "Slime Dirt Block",
   "subtitles.slimedzombie.death": "Slimed Zombie Dies"
 }

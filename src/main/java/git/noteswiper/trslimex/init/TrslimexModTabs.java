@@ -20,5 +20,7 @@ public class TrslimexModTabs {
 	public static final RegistryObject<CreativeModeTab> GENERAL_CREATIVE_TAB = REGISTRY.register("general_creative_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.trslimex.general_creative_tab")).icon(() -> new ItemStack(Items.CREEPER_HEAD)).displayItems((parameters, tabData) -> {
 				tabData.accept(TrslimexModBlocks.SLIME_GRASS_BLOCK.get().asItem());
+				tabData.accept(TrslimexModBlocks.SLIME_DIRT_BLOCK.get().asItem());
+				tabData.accept(TrslimexModBlocks.SLIME_STONE_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

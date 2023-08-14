@@ -17,6 +17,8 @@ import git.noteswiper.trslimex.TrslimexMod;
 public class TrslimexModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TrslimexMod.MODID);
 	public static final RegistryObject<Item> SLIME_GRASS_BLOCK = block(TrslimexModBlocks.SLIME_GRASS_BLOCK);
+	public static final RegistryObject<Item> SLIME_DIRT_BLOCK = block(TrslimexModBlocks.SLIME_DIRT_BLOCK);
+	public static final RegistryObject<Item> SLIME_STONE_BLOCK = block(TrslimexModBlocks.SLIME_STONE_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

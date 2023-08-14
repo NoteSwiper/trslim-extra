@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "trslimex:slime_grass_block"
+    "trslimex:slime_grass_block",
+    "trslimex:slime_dirt_block"
   ]
 }

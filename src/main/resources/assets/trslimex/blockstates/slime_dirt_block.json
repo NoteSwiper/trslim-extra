@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "trslimex:block/slime_dirt_block"
+    }
+  }
+}

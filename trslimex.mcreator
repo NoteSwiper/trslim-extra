@@ -43,6 +43,46 @@
           "src/main/resources/data/trslimex/worldgen/placed_feature/slime_grass_block.json"
         ]
       }
+    },
+    {
+      "name": "SlimeDirtBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/trslimex/models/block/slime_dirt_block.json",
+          "src/main/java/git/noteswiper/trslimex/world/features/ores/SlimeDirtBlockFeature.java",
+          "src/main/java/git/noteswiper/trslimex/block/SlimeDirtBlockBlock.java",
+          "src/main/resources/assets/trslimex/blockstates/slime_dirt_block.json",
+          "src/main/resources/data/trslimex/forge/biome_modifier/slime_dirt_block_biome_modifier.json",
+          "src/main/resources/data/trslimex/worldgen/placed_feature/slime_dirt_block.json",
+          "src/main/resources/assets/trslimex/models/item/slime_dirt_block.json",
+          "src/main/resources/data/trslimex/worldgen/configured_feature/slime_dirt_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeStoneBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/git/noteswiper/trslimex/block/SlimeStoneBlockBlock.java",
+          "src/main/resources/assets/trslimex/blockstates/slime_stone_block.json",
+          "src/main/java/git/noteswiper/trslimex/world/features/ores/SlimeStoneBlockFeature.java",
+          "src/main/resources/data/trslimex/worldgen/placed_feature/slime_stone_block.json",
+          "src/main/resources/data/trslimex/forge/biome_modifier/slime_stone_block_biome_modifier.json",
+          "src/main/resources/data/trslimex/worldgen/configured_feature/slime_stone_block.json",
+          "src/main/resources/assets/trslimex/models/block/slime_stone_block.json",
+          "src/main/resources/assets/trslimex/models/item/slime_stone_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -81,6 +121,8 @@
       "subtitles.slimedzombie.hurt": "Slimed Zombie Hurts",
       "item_group.trslimex.general_creative_tab": "trslim EXTRA",
       "block.trslimex.slime_grass_block": "Slime Grass Block",
+      "block.trslimex.slime_stone_block": "Slime Stone Block",
+      "block.trslimex.slime_dirt_block": "Slime Dirt Block",
       "subtitles.slimedzombie.death": "Slimed Zombie Dies"
     },
     "ja_jp": {
@@ -88,6 +130,8 @@
       "subtitles.slimedzombie.hurt": "Slimed Zombie Hurts",
       "item_group.trslimex.general_creative_tab": "trslim EXTRA",
       "block.trslimex.slime_grass_block": "Slime Grass Block",
+      "block.trslimex.slime_stone_block": "Slime Stone Block",
+      "block.trslimex.slime_dirt_block": "Slime Dirt Block",
       "subtitles.slimedzombie.death": "Slimed Zombie Dies"
     }
   },
